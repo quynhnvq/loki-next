@@ -6,6 +6,7 @@ const HOME_DESCRIPTION =
   "LOKI helps businesses grow through technology, AI-powered marketing, and custom digital solutions. From websites and mobile apps to performance marketing and brand strategy, we build what drives growth.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lokidt.com"),
   title: HOME_TITLE,
   description: HOME_DESCRIPTION,
   icons: {
