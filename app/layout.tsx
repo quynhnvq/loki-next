@@ -8,6 +8,9 @@ const HOME_DESCRIPTION =
 export const metadata: Metadata = {
   title: HOME_TITLE,
   description: HOME_DESCRIPTION,
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
     title: HOME_TITLE,
     description: HOME_DESCRIPTION,
